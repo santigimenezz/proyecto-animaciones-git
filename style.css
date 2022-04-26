@@ -58,7 +58,30 @@ grid-area: header;
 }
 .navbar ul li {
     margin: 10px;  
+    transition: transform 0.5s;
 }
+
+.navbar ul li:hover{
+    transform: scale(1.2);
+}
+
+.logo-index{
+    transition: transform 0.5s;
+}
+.logo-index:hover{
+    transform: scale(1.2);
+}
+.imagen1{
+    transition: transform 0.5s;
+}
+.imagen1:hover{
+    transform:scale(1.1) ;
+    
+}
+
+
+
+
 .navbar ul li a{
 text-decoration: none;
 color: white;
